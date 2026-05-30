@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/chat.py": {
+      "entrypoint": "app"
+    }
+  },
+  "rewrites": [
+    { "source": "/chat", "destination": "/api/chat" }
+  ]
+}
